@@ -7,7 +7,7 @@ class db
     protected $password;
     protected $database;
     public $connection;
-    private $apitoken = 'my-api-key';
+    protected $apitoken = 'my-api-key';
 
     protected function connect()
     {
